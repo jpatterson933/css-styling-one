@@ -1,5 +1,7 @@
-
-#black-dot {
+#loading-bar {
+    display: flex;
+}
+#black-dot-i {
     width: 50px;
     height: 50px;
     background-color: black;
@@ -8,7 +10,89 @@
     animation-iteration-count: infinite;
 }
 
+#black-dot-ii {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#black-dot-iii {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#black-dot-iv {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes blink {
     25% {background-color: black}
-    50% {background-color: yellow}
+    50% {background-color: grey}
+}
+
+#circle-spin-i {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    background-color: aqua;
+    animation-name: swing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#circle-spin-ii {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    margin-left: 100px;
+    background-color: aquamarine;
+    animation-name: reverse-swing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#circle-spin-iii {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    background-color: cadetblue;
+    animation-name: swing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#circle-spin-iv {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    margin-left: 100px;
+    background-color: darkcyan;
+    animation-name: reverse-swing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes swing {
+    50% {margin-left: 100px}
+    100% {margin-left: 0}
+}
+
+@keyframes reverse-swing{
+    50% {margin-left: 0}
+    100% {margin-left: 100px}
 }
