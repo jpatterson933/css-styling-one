@@ -1,5 +1,14 @@
+
 #black-dot {
     width: 50px;
     height: 50px;
     background-color: black;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    25% {background-color: black}
+    50% {background-color: yellow}
 }
