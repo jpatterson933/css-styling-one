@@ -45,7 +45,7 @@
     50% {background-color: grey}
 }
 
-#circle-spin-i {
+#circle-swing-i {
     width: 50px;
     height: 50px;
     border-radius: 150px;
@@ -55,7 +55,7 @@
     animation-iteration-count: infinite;
 }
 
-#circle-spin-ii {
+#circle-swing-ii {
     width: 50px;
     height: 50px;
     border-radius: 150px;
@@ -66,7 +66,7 @@
     animation-iteration-count: infinite;
 }
 
-#circle-spin-iii {
+#circle-swing-iii {
     width: 50px;
     height: 50px;
     border-radius: 150px;
@@ -76,7 +76,7 @@
     animation-iteration-count: infinite;
 }
 
-#circle-spin-iv {
+#circle-swing-iv {
     width: 50px;
     height: 50px;
     border-radius: 150px;
@@ -96,3 +96,60 @@
     50% {margin-left: 0}
     100% {margin-left: 100px}
 }
+
+#circle-spin-i {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background-color: black;
+    animation: spin 6s linear infinite;
+}
+#circle-spin-ii {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background-color: black;
+    animation: spin 6s linear infinite;
+
+}
+#circle-spin-iii {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background-color: black;
+    animation: spin 6s linear infinite;
+
+}
+#circle-spin-iv {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background-color: black;
+    animation: spin 6s linear infinite;
+
+}
+#circle-spin-v {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background-color: black;
+    animation: spin 6s linear infinite;
+
+}
+#circle-spin-vi {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background-color: black;
+    animation: spin 6s linear infinite;
+
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg) translate(50px);
+    }
+    to {
+      transform: rotate(360deg) translate(50px);
+    }
+  }
